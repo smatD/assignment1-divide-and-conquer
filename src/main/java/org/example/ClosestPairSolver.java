@@ -80,13 +80,6 @@ public class ClosestPairSolver {
         Point[] leftY = new Point[mid];
         Point[] rightY = new Point[n - mid];
 
-        /*
-         * Use the actual points from leftX to decide which
-         * points belong to the left half.
-         *
-         * This avoids problems when several points have the
-         * same x-coordinate.
-         */
         java.util.HashSet<Point> leftSet =
                 new java.util.HashSet<>();
 
